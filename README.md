@@ -12,7 +12,9 @@ It has 5 Pages.
 
     Some details about what i do and a link to my LinkedIn
 
-    ![Home](Home-SS.png)
+    ![alt text][Home]
+    
+    [Home]: https://github.com/Paraianu-Remus/paraianu-remus.github.io/assets/99686102/88e47d10-45e0-402d-9114-26d650f8bc58
 
 ### About
 
