@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/main.ico" type="image/icon type" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Minesweeper</title>
+  </head>
+  <body>
+    <h3 class="title">Minesweeper</h3>
+    <div class="subtext">Mines Left: <span data-mine-count></span></div>
+    <div class="game-board"></div>
+    <div class="popup center" id="popup">
+      <div class="icon">
+        <i class="fa fa-check"></i>
+      </div>
+      <div class="title">Game Over!</div>
+      <div class="description">You <span class="game-over">Won</span></div>
+      <div class="dismiss-btn">
+        <button class="btn" id="dismissPopupBtn">Restart</button>
+      </div>
+    </div>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

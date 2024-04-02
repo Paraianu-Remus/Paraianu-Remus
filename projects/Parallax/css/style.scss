@@ -1,0 +1,121 @@
+@import url("http://fonts.cdnfonts.com/css/bookman-old-style");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bookman Old Style", sans-serif;
+}
+
+body {
+  background: #0a2a43;
+  min-height: 4900px;
+}
+@mixin sectionStyle {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0a2a43, transparent);
+    z-index: 9999;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+    mix-blend-mode: color;
+  }
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+  }
+  #text,
+  #text-2,
+  #text-3,
+  #text-4 {
+    position: relative;
+    color: #fff;
+    font-size: 160px;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+}
+.parallax-1,
+.parallax-2,
+.parallax-3,
+.parallax-4 {
+  @include sectionStyle;
+  #road {
+    z-index: 2;
+  }
+  #girl {
+    z-index: 2;
+  }
+  #rock {
+    z-index: 3;
+  }
+  #forest {
+    z-index: 2;
+  }
+  #rocks {
+    z-index: 3;
+  }
+  #water {
+    z-index: 4;
+  }
+  #bird-1,
+  #bird-2 {
+    z-index: 5;
+  }
+  #moon-1 {
+    mix-blend-mode: screen;
+  }
+  #mountains-front {
+    z-index: 3;
+  }
+  #text-3 {
+    color: #0a2a43;
+    z-index: 1;
+  }
+}
+.parallax-3 {
+  background: white;
+}
+.parallax-effect-text {
+  position: relative;
+  padding: 100px;
+  background-color: #0a2a43;
+  h2 {
+    font-size: 56px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+}

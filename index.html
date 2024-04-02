@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Document Icon -->
+    <link rel="icon" href="./assets/images/Main.ico" type="image/icon type" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/skins/color_3.css" />
+    <!-- Color Switcher -->
+    <link
+      rel="stylesheet"
+      href="./css/skins/color_1.css"
+      class="alternate-color-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./css/skins/color_2.css"
+      class="alternate-color-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./css/skins/color_3.css"
+      class="alternate-color-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./css/skins/color_4.css"
+      class="alternate-color-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./css/skins/color_5.css"
+      class="alternate-color-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="./css/style_switcher.css" />
+    <title>Paraianu Nicolae Remus</title>
+  </head>
+  <body>
+    <!-- Start of Preloader -->
+    <div id="preloader">
+      <div id="ring">
+        <span id="loading">Loading...</span>
+      </div>
+    </div>
+    <!-- End of Preloader -->
+    <!-- Start of Main container -->
+    <div class="main-container">
+      <!-- Start of Side-Panel -->
+      <div class="side-panel">
+        <div class="logo">
+          <a href="#"><span>P</span>ortofolio</a>
+        </div>
+        <div class="nav-btn">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#skills"><i class="fa fa-list"></i> Skills</a>
+          </li>
+          <li>
+            <a href="#projects"><i class="fa fa-briefcase"></i> Projects</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- End of Side-Panel -->
+      <!-- Start of Main Content -->
+      <div class="main-content">
+        <!-- Start of Home Section -->
+        <section class="home section active" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info">
+                <h3 class="hello">
+                  Hello, my name is
+                  <span class="name-typing"></span>
+                </h3>
+                <h3 class="my-profession">
+                  I am a <span class="home-typing"></span>
+                </h3>
+                <p>
+                  I am a Front-End Developer. My job is to build and mantain all
+                  the visible features of a website with the help of HTML, CSS
+                  and Javascript.
+                </p>
+                <a
+                  href="https://www.linkedin.com/in/paraianu-remus/"
+                  target="_blank"
+                  class="btn"
+                  >Download CV</a
+                >
+              </div>
+              <div class="home-img">
+                <img src="./assets/images/Profile2.jpg" alt="Profile Image" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of Home Section -->
+        <!-- Start of About Section -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content">
+                <div class="row">
+                  <div class="about-text">
+                    <h3>
+                      I am Paraianu Nicolae Remus and I am a
+                      <span class="about-typing"></span>
+                    </h3>
+                    <p>
+                      Highly motivated Front-End Developer. I started to learn
+                      programming on my own, from books and with the help of
+                      Youtube and some courses. Driven and permanently curious,
+                      I am now specialized in fixing front-end issues.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info">
+                    <div class="row">
+                      <div class="info-item">
+                        <p>Birthday : <span>02 july 1994</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Age : <span>27</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Website : <span>www.domain.com</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>E-Mail : <span>user@mail.com</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Phone : <span>0721.123.456</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>City : <span>Bucharest</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons">
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Hire Me</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills-bar" id="progress-bar-section">
+                    <div class="row">
+                      <div class="skill-bar-item">
+                        <h5>HTML</h5>
+                        <div class="progress-bar">
+                          <div class="progress-bar-in" style="width: 90%"></div>
+                          <div class="skill-bar-percent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-bar-item">
+                        <h5>CSS</h5>
+                        <div class="progress-bar">
+                          <div class="progress-bar-in" style="width: 80%"></div>
+                          <div class="skill-bar-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skill-bar-item">
+                        <h5>Javascript</h5>
+                        <div class="progress-bar">
+                          <div class="progress-bar-in" style="width: 75%"></div>
+                          <div class="skill-bar-percent">75%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of About Section -->
+        <!-- Start of Skills Section -->
+        <section class="skills section" id="skills">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>Skills</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Start of Skills Item -->
+              <div class="skills-item" id="progress-bar-section">
+                <div class="skills-item-inner">
+                  <h4 class="skills-title">Front-End Development</h4>
+                  <p class="skills-sub-title">Entry-Level/Junior experience</p>
+                  <div class="skills-image">
+                    <img
+                      src="./assets/images/HTML.png"
+                      alt="HTML Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/CSS.png"
+                      alt="CSS Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/Javascript.png"
+                      alt="Javascript Icon"
+                      class="skills-image-icon"
+                    />
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>HTML</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 90%"></div>
+                      <div class="skill-bar-percent">90%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>CSS</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 80%"></div>
+                      <div class="skill-bar-percent">80%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Javascript</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 75%"></div>
+                      <div class="skill-bar-percent">75%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Skills Item -->
+              <!-- Start of Skills Item -->
+              <div class="skills-item">
+                <div class="skills-item-inner">
+                  <h4 class="skills-title">UI/UX Designing</h4>
+                  <p class="skills-sub-title">Basic knownledge experience</p>
+                  <div class="skills-image">
+                    <img
+                      src="./assets/images/Figma.png"
+                      alt="Figma Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/Adobe-XD.png"
+                      alt="Adobe XD Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/Adobe-PS.png"
+                      alt="Adobe Photoshop Icon"
+                      class="skills-image-icon"
+                    />
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Figma</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 65%"></div>
+                      <div class="skill-bar-percent">65%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Adobe Xd</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 60%"></div>
+                      <div class="skill-bar-percent">60%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Adobe Photoshop</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 70%"></div>
+                      <div class="skill-bar-percent">70%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Skills Item -->
+              <!-- Start of Skills Item -->
+              <div class="skills-item">
+                <div class="skills-item-inner">
+                  <h4 class="skills-title">CSS Frameworks & Preprocessor</h4>
+                  <p class="skills-sub-title">Entry-Level/Junior experience</p>
+                  <div class="skills-image">
+                    <img
+                      src="./assets/images/SASS.png"
+                      alt="SASS Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/Bootstrap.png"
+                      alt="Bootstrap Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/TailwindCSS.png"
+                      alt="TailwindCSS Icon"
+                      class="skills-image-icon"
+                    />
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>SASS</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 85%"></div>
+                      <div class="skill-bar-percent">85%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Bootstrap</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 90%"></div>
+                      <div class="skill-bar-percent">90%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Tailwind CSS</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 85%"></div>
+                      <div class="skill-bar-percent">85%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Skills Item -->
+              <!-- Start of Skills Item -->
+              <div class="skills-item">
+                <div class="skills-item-inner">
+                  <h4 class="skills-title">Javascript Frameworks</h4>
+                  <p class="skills-sub-title">Learning Phase</p>
+                  <div class="skills-image">
+                    <img
+                      src="./assets/images/React.png"
+                      alt="React Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/Angular.png"
+                      alt="Angular Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/Vue.png"
+                      alt="Vue Icon"
+                      class="skills-image-icon"
+                    />
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>React</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Angular</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Vue</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Skills Item -->
+              <!-- Start of Skills Item -->
+              <div class="skills-item">
+                <div class="skills-item-inner">
+                  <h4 class="skills-title">Javascript Frameworks</h4>
+                  <p class="skills-sub-title">Learning Phase</p>
+                  <div class="skills-image">
+                    <img
+                      src="./assets/images/JQuery.png"
+                      alt="JQuery Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/JSON.png"
+                      alt="JSON Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/AJAX.png"
+                      alt="AJAX Icon"
+                      class="skills-image-icon"
+                    />
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>JQuery</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>JSON</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>AJAX</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Skills Item -->
+              <!-- Start of Skills Item -->
+              <div class="skills-item">
+                <div class="skills-item-inner">
+                  <h4 class="skills-title">Other Skills</h4>
+                  <p class="skills-sub-title">Learning Phase</p>
+                  <div class="skills-image">
+                    <img
+                      src="./assets/images/Git.png"
+                      alt="Git Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/GitHub.png"
+                      alt="GitHub Icon"
+                      class="skills-image-icon"
+                    />
+                    <img
+                      src="./assets/images/GitLab.png"
+                      alt="GitLab Icon"
+                      class="skills-image-icon"
+                    />
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>Git</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 60%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>GitHub</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="skill-bar-item">
+                    <h5>GitLab</h5>
+                    <div class="progress-bar">
+                      <div class="progress-bar-in" style="width: 50%"></div>
+                      <div class="skill-bar-percent">50%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Skills Item -->
+            </div>
+            <span class="skills-nb">
+              NB: I'm willing to learn other skills as required.
+            </span>
+          </div>
+        </section>
+        <!-- End of Skills Section -->
+        <!-- Start of Projects Section -->
+        <section class="projects section" id="projects">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="projects-heading">
+                <h2>Last Projects:</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Start of Project Item -->
+              <div class="projects-item">
+                <div class="projects-item-inner shadow-dark">
+                  <div class="projects-image">
+                    <img
+                      src="./assets/images/Snake.png"
+                      alt="Snake Project Screenshot"
+                    />
+                  </div>
+                  <div class="projects-overlay">
+                    <h2>Snake</h2>
+                    <div>
+                      <img
+                        src="./assets/images/HTML.png"
+                        alt="HTML Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/SASS.png"
+                        alt="SASS Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/Javascript.png"
+                        alt="Javascript Icon"
+                        class="skills-image-icon"
+                      />
+                    </div>
+                    <a href="./projects/Snake/index.html" target="_blank">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Project Item -->
+              <!-- Start of Project Item -->
+              <div class="projects-item">
+                <div class="projects-item-inner">
+                  <div class="projects-image">
+                    <img
+                      src="./assets/images/Parallax.png"
+                      alt="Project Image"
+                    />
+                  </div>
+                  <div class="projects-overlay">
+                    <h2>Parallax</h2>
+                    <div>
+                      <img
+                        src="./assets/images/HTML.png"
+                        alt="HTML Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/SASS.png"
+                        alt="SASS Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/Javascript.png"
+                        alt="Javascript Icon"
+                        class="skills-image-icon"
+                      />
+                    </div>
+                    <a href="./projects/Parallax/index.html" target="_blank">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Project Item -->
+              <!-- Start of Project Item -->
+              <div class="projects-item">
+                <div class="projects-item-inner">
+                  <div class="projects-image">
+                    <img
+                      src="./assets/images/Minesweeper.png"
+                      alt="Project Image"
+                    />
+                  </div>
+                  <div class="projects-overlay">
+                    <h2>Minesweeper</h2>
+                    <div>
+                      <img
+                        src="./assets/images/HTML.png"
+                        alt="HTML Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/SASS.png"
+                        alt="SASS Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/Javascript.png"
+                        alt="Javascript Icon"
+                        class="skills-image-icon"
+                      />
+                    </div>
+                    <a href="./projects/Minesweeper/index.html" target="_blank">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Project Item -->
+              <!-- Start of Project Item -->
+              <div class="projects-item">
+                <div class="projects-item-inner">
+                  <div class="projects-image">
+                    <img src="./assets/images/Sudoku.png" alt="Project Image" />
+                  </div>
+                  <div class="projects-overlay">
+                    <h2>Sudoku</h2>
+                    <div>
+                      <img
+                        src="./assets/images/HTML.png"
+                        alt="HTML Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/SASS.png"
+                        alt="SASS Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/Javascript.png"
+                        alt="Javascript Icon"
+                        class="skills-image-icon"
+                      />
+                    </div>
+                    <a href="./projects/Sudoku/index.html" target="_blank">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Project Item -->
+              <!-- Start of Project Item -->
+              <div class="projects-item">
+                <div class="projects-item-inner">
+                  <div class="projects-image">
+                    <img src="./assets/images/2048.png" alt="Project Image" />
+                  </div>
+                  <div class="projects-overlay">
+                    <h2>2048</h2>
+                    <div>
+                      <img
+                        src="./assets/images/HTML.png"
+                        alt="HTML Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/SASS.png"
+                        alt="SASS Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/Javascript.png"
+                        alt="Javascript Icon"
+                        class="skills-image-icon"
+                      />
+                    </div>
+                    <a href="./projects/2048/index.html" target="_blank">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Project Item -->
+              <!-- Start of Project Item -->
+              <div class="projects-item">
+                <div class="projects-item-inner">
+                  <div class="projects-image">
+                    <img src="./assets/images/Piano.png" alt="Project Image" />
+                  </div>
+                  <div class="projects-overlay">
+                    <h2>Piano</h2>
+                    <div>
+                      <img
+                        src="./assets/images/HTML.png"
+                        alt="HTML Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/SASS.png"
+                        alt="SASS Icon"
+                        class="skills-image-icon"
+                      />
+                      <img
+                        src="./assets/images/Javascript.png"
+                        alt="Javascript Icon"
+                        class="skills-image-icon"
+                      />
+                    </div>
+                    <a href="./projects/Piano/index.html" target="_blank">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Project Item -->
+            </div>
+          </div>
+        </section>
+        <!-- End of Projects Section -->
+        <!-- Start of Contact Section -->
+        <section class="contact section" id="contact">
+          <div class="container" id="blur">
+            <div class="row">
+              <div class="section-title">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title">Do you have any questions?</h3>
+            <h4 class="contact-sub-title">I am at your service!</h4>
+            <div class="row">
+              <!-- Start of Contact Info Item -->
+              <div class="contact-info-item">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call me</h4>
+                <p>0721.123.456</p>
+              </div>
+              <!-- End of Contact Info Item -->
+              <!-- Start of Contact Info Item -->
+              <div class="contact-info-item">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Address</h4>
+                <p>Address is inserted here</p>
+              </div>
+              <!-- End of Contact Info Item -->
+              <!-- Start of Contact Info Item -->
+              <div class="contact-info-item">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>E-Mail</h4>
+                <p>user@mail.com</p>
+              </div>
+              <!-- End of Contact Info Item -->
+              <!-- Start of Contact Info Item -->
+              <div class="contact-info-item">
+                <div class="icon"><i class="fa fa-globe"></i></div>
+                <h4>Website</h4>
+                <p>www.domain.com</p>
+              </div>
+              <!-- End of Contact Info Item -->
+            </div>
+            <h3 class="contact-title" style="text-transform: uppercase">
+              Send me an e-mail
+            </h3>
+            <h4 class="contact-sub-title">I am very responsive to messages</h4>
+            <!-- Start of Contact Form -->
+            <div class="row">
+              <div class="contact-form">
+                <div class="row">
+                  <div class="contact-form-item col-6">
+                    <div class="contact-form-group">
+                      <input
+                        type="text"
+                        class="contact-form-input"
+                        placeholder="Name"
+                        id="contact-name"
+                        onkeyup="nameValidation()"
+                      />
+                      <span id="name-error"></span>
+                    </div>
+                  </div>
+                  <div class="contact-form-item col-6">
+                    <div class="contact-form-group">
+                      <input
+                        type="email"
+                        class="contact-form-input"
+                        placeholder="Email"
+                        id="contact-email"
+                        onkeyup="emailValidation()"
+                      />
+                      <span id="email-error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="contact-form-item col-12">
+                    <div class="contact-form-group">
+                      <input
+                        type="text"
+                        class="contact-form-input"
+                        placeholder="Subject"
+                        id="contact-subject"
+                        onkeyup="subjectValidation()"
+                      />
+                      <span id="subject-error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="contact-form-item col-12">
+                    <div class="contact-form-group">
+                      <textarea
+                        name="Message"
+                        class="contact-form-input"
+                        placeholder="Message"
+                        id="contact-message"
+                        onkeyup="messageValidation()"
+                      ></textarea>
+                      <span id="message-error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="contact-form-item col-12">
+                    <div class="contact-form-group">
+                      <button
+                        type="submit"
+                        class="btn"
+                        id="openPopupBtn"
+                        onclick="formValidation()"
+                      >
+                        Send Message
+                      </button>
+                      <span id="submit-error"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Contact Form -->
+          </div>
+          <div class="popup center" id="popup">
+            <div class="icon">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="title">Thank you!</div>
+            <div class="description">
+              Your message has been successfully sent. Thanks!
+            </div>
+            <div class="dismiss-btn">
+              <button
+                class="btn"
+                id="dismissPopupBtn"
+                onclick="popupBlurRemove()"
+              >
+                Dismiss
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- End of Contact Section -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Start of Style Switcher -->
+      <div class="style-switcher">
+        <!-- Color switcher -->
+        <div class="style-switcher-toggler style-icon">
+          <i class="fas fa-cog"></i>
+        </div>
+        <!-- Light-Dark switcher -->
+        <div class="light-dark style-icon">
+          <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+          <span class="color-1" onclick="setActiveColor('color-1')"></span>
+          <span class="color-2" onclick="setActiveColor('color-2')"></span>
+          <span class="color-3" onclick="setActiveColor('color-3')"></span>
+          <span class="color-4" onclick="setActiveColor('color-4')"></span>
+          <span class="color-5" onclick="setActiveColor('color-5')"></span>
+        </div>
+      </div>
+      <!-- End of Style Switcher -->
+    </div>
+    <!-- End of Main Container -->
+    <!-- JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/style-switcher.js"></script>
+  </body>
+</html>
