@@ -18,11 +18,15 @@ Some details about what i do and a link to my LinkedIn
 
 ### About
 
+Some information about myself.
+
 ![alt text][About]
     
 [About]: https://github.com/Paraianu-Remus/paraianu-remus.github.io/assets/99686102/17308410-038c-439c-966f-11fe28758308
 
 ### Skills
+
+My skills listed by categories and experience.
 
 ![alt text][Skills]
     
@@ -30,11 +34,15 @@ Some details about what i do and a link to my LinkedIn
 
 ### Projects
 
+Some of my projects.
+
 ![alt text][Projects]
     
 [Projects]: https://github.com/Paraianu-Remus/paraianu-remus.github.io/assets/99686102/2d6204ab-b9b1-49d0-ae55-ed413e44d9ac
 
 ### Contact
+
+Contact form.
 
 ![alt text][Contact]
     
