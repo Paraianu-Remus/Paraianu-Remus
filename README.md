@@ -12,7 +12,7 @@ It has 5 Pages.
 
     Some details about what i do and a link to my LinkedIn
 
-    ![Home](/assets/images/Home-SS.png)
+    ![Home](Home-SS.png)
 
 ### About
 
